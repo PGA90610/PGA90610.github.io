@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+.menu{
+background:linear-gradient(to right,white,white,blue);
+width:100%;
+height:50px;
+}
+a{
+margin:10px;
+text-decoration:none;
+font-family:cursive;
+}
+body{
+margin:0px;
+background:radial-gradient(ellipse at center 150px,blue,black);
+color:white;
+font-family:cursive;
+}
+a:hover{
+	color:red;
+}
+.red:valid{
+background:green;
+}
+.red:invalid{
+background:red;
+}
+input[type="submit"]{
+padding:10px;
+background:linear-gradient(to right,navy,red);
+color:white;
+}
+input[type="submit"]:hover{
+background:linear-gradient(to left,navy,red);
+}
+</style>
+</head>
+<body>
+
+<div class="menu">
+<br>
+<a href="">Анкета</a> <a href="">Результат</a>
+</div>
+<h1 align="center">Анкета Участника</h1>
+<form>
+<label>Ведіть ваше Ім'я</label><br>
+<input type="text" class="red"><br>
+<label>Ведіть ваш клас</label><br>
+<input type="number" min="1" max="12" class="red"><br>
+<label>Ведіть ваш емейл</label><br>
+<input type="email" class="red"><br>
+<br>
+<label>Які мови ви знаете</label><br>
+<input type="checkbox" name="a1">Українська<br>
+<input type="checkbox" name="a2">Російська<br>
+<input type="checkbox" name="a3">Англійська<br>
+<input type="checkbox" name="a4">Німецька<br>
+<input type="submit" value="Перевірка">
+<br>
+</form>
+</body>
+</html>
