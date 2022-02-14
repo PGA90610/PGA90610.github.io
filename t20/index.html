@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+.div{
+	width:400px;
+	height:200px;
+	background:linear-gradient(to right,red,navy);
+	color:white;
+	font-family:cursive;
+	margin-bottom:60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-left:35%;
+	transition:all 0.5s ease;
+}
+.anim1:hover{
+	box-shadow:0 0 0 20px inset blue;
+}
+.anim2:hover{
+opacity:0.5;
+}
+.anim3:hover{
+transform:scale(1.1,1.1);
+}
+.anim4:hover{
+border-radius:200px;
+}
+.anim5:hover{
+transform:rotateZ(45deg);
+}
+.pr6{
+animation-name:animka;
+animation-duration:3s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-direction:alternate;
+animation-fill-mode:alternate;
+}
+@keyframes animka{
+	0%{
+	transform:rotateZ(0deg) scale(1,1);
+	color:green;
+	}
+	50%{
+	transform:rotateZ(90deg) scale(1,1);
+	color:navy;
+	}
+	100%{
+	transform:rotateZ(-90deg) scale(2,2);
+	color:red;
+	}
+}
+</style>
+</head>
+<body>
+<div class="anim1 div">Приклад 1</div>
+<div class="anim2 div">Приклад 2</div>
+<div class="anim3 div">Приклад 3</div>
+<div class="anim4 div">Приклад 4</div>
+<div class="anim5 div">Приклад 5</div>
+<div class="anim6 div"><div class="pr6">Приклад 6</div></div>
+</body>
+</html>
