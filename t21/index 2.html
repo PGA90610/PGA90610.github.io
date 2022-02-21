@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+.utka{
+animation:utka 3s linear 1s infinite alternate;
+}
+@keyframes utka{
+ 0%{
+ transform:translate(0px,0px) rotateX(360deg) scale(3,3);
+ }
+ 25%{
+  transform:translate(1000px,0px) rotateX(360deg) scale(0.76,0.76);
+  }
+ 50%{
+  transform:translate(1000px,400px) rotateX(200deg) scale(6,6);
+ }
+ 75%{
+ transform:translate(0px,400px) rotateX(360deg) scale(9,9);
+ }
+ 100%{
+ transform:translate(0px,0px) rotateX(360deg) scale(1,1);
+}
+}
+.utko{
+animation:utk 6s ease 1s infinite alternate;
+}
+@keyframes utk{
+	0%{
+	color:orange;
+	font-size:500px;
+	background:navy;
+	transform:skew(10degX,40degY)
+	
+	}
+	50%{
+	color:purple;
+	font-family:cursive;
+	}
+	100%{
+	color:red;
+	}
+}
+</style>
+</head>
+<body>
+<img src="https://i.gifer.com/origin/f5/f5baef4b6b6677020ab8d091ef78a3bc_w200.gif" class="utka">
+<h1 align="center" class="utko">Утка денс</h1>
+</body>
+</html>
