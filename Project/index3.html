@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+.div{
+	width:400px;
+	height:200px;
+	background:url(https://i.ytimg.com/vi/3pkgw3bmepU/maxresdefault.jpg);
+	color:black;
+	font-family:cursive;
+	margin-bottom:60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-left:35%;
+	transition:all 0.5s ease;
+}
+body{
+background:linear-gradient(to right,red,navy);
+}
+.menu{
+		width:100%;
+		height:100px;
+		display:flex;
+		justify-content:right;
+		align-items:center;
+		
+		
+		
+		background:url(https://i.pinimg.com/originals/57/dd/bb/57ddbb0e894d12a376ae8653edd2092a.png);
+		}
+.menu_button{
+	color:white;
+	text-decoration:none;
+	margin-right:20px;
+	font-size:30px;
+	padding:5px;
+}
+.menu_button:hover{
+		border-bottom:2px solid lime;
+		border-left:2px solid lime;
+	}
+.anim1:hover{
+	box-shadow:0 0 0 20px inset blue;
+	background:url(https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-gibraltar-xl.jpg.adapt.320w.jpg);
+}
+.anim2:hover{
+opacity:0.5;
+background:url(https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-octane-xl.jpg.adapt.320w.jpg);
+}
+.anim3:hover{
+transform:scale(1.1,1.1);
+background:url(https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-pathfinder-xl.jpg.adapt.320w.jpg);
+}
+.anim4:hover{
+border-radius:200px;
+background:url(https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-bloodhound-xl.jpg.adapt.320w.jpg);
+}
+.anim5:hover{
+transform:rotateZ(45deg);
+background:url(mirage.jpg);
+
+
+}
+.pr6{
+animation-name:animka;
+animation-duration:3s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-direction:alternate;
+animation-fill-mode:alternate;
+}
+@keyframes animka{
+	0%{
+	transform:rotateZ(0deg)
+	scale:(8.90);
+	color:green;
+	}
+	50%{
+	transform:rotateZ(0deg)
+	scale:(5.62);
+	color:navy;
+	}
+	60%{
+	transform:rotateZ(0deg)
+	scale:(4.2);
+	color:purple;
+	
+	}
+	100%{
+	transform:rotateZ(0deg)
+	scale:(2.25);
+	color:red;
+	}
+}
+</style>
+</head>
+<body>
+<div class="menu">
+	<a href="index.html" class="menu_button">Головна</a>
+	<a href="index2.html" class="menu_button">Відео Гайди</a>
+	<a href="index3.html" class="menu_button">Картинки</a>
+</div>
+<div class="anim1 div"><div class="pr6">Наведи на мене мишкую</div></div>
+<div class="anim2 div"><div class="pr6">Наведи на мене мишкую</div></div>
+<div class="anim3 div"><div class="pr6">Наведи на мене мишкую</div></div>
+<div class="anim4 div"><div class="pr6">Наведи на мене мишкую</div></div>
+<div class="anim5 div"><div class="pr6">Наведи на мене мишкую</div></div>
+</body>
+</html>
