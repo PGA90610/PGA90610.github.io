@@ -1,0 +1,18 @@
+    <div class="menu">
+        a.menu_button*6
+        
+    </div>
+    <div class="main">
+        <div class="filter"></div>
+        <div class="all_tovars">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae ab quos repudiandae autem vero exercitationem accusantium eius doloribus nemo molestiae, rerum perferendis minima est et sapiente? Iusto, et unde.
+            Corporis iusto, quam nihil voluptatem consequatur impedit rem perferendis velit, ipsam aut quasi ea similique magni, deleniti fugit aliquam nulla blanditiis enim illo vel labore quisquam delectus nemo accusamus. Maxime.
+            Eaque cumque maiores, autem fugit magni tenetur perspiciatis facere, accusantium sint molestiae accusamus necessitatibus sunt facilis voluptate dolore ipsa repellat? Dolor molestias, ipsa distinctio aperiam explicabo perferendis error vero saepe?
+            Corporis explicabo ipsa fugiat consequatur pariatur aliquam, itaque, facilis voluptate sunt repellendus, maxime doloribus praesentium velit in. Nesciunt accusamus esse dolores ad dignissimos iste illum possimus ipsam. Enim, cumque quae.
+            Voluptates maxime quisquam quos veniam molestiae amet, est nam? Ad fugiat, fugit ea laudantium quae fuga deserunt ratione asperiores nobis labore nihil, obcaecati similique autem eius sit veniam quo culpa?
+            Esse nostrum, facilis, recusandae dolores eius fugit voluptatibus fugiat odio tempora suscipit aliquam quisquam distinctio doloremque veritatis, molestias eligendi tenetur praesentium. Dignissimos, nesciunt hic aspernatur soluta minus iusto explicabo possimus.
+            Veritatis tenetur laborum quo voluptatibus non ea autem inventore, similique laudantium repellendus, eius iure dolor suscipit voluptatem hic eos qui, officia atque! Doloremque, expedita? At dolor unde nihil dicta commodi.
+            Nesciunt ad quos pariatur laborum minus sed natus, error iusto. Reiciendis id dolore dolores similique sunt voluptatum laboriosam aperiam, earum pariatur! Dolorem hic laboriosam quod magnam quasi, optio harum vero.
+            Iste odio accusamus facilis hic est nulla, nam, magni eum cupiditate architecto molestiae quaerat perferendis possimus quia! Quas esse, minus sint, molestiae ad, eius architecto vitae suscipit repellendus quam tempora.
+            Dolore quia quibusdam corrupti. Enim architecto deserunt ducimus suscipit vitae eum laborum cum rerum consequatur porro optio et eos, dicta cupiditate harum, aliquid temporibus quisquam laboriosam, nobis in expedita nisi!
+        </div>
